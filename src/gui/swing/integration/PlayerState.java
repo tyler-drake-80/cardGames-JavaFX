@@ -1,4 +1,4 @@
-package gui.integration;
+package gui.swing.integration;
 
 import cards.Card;
 

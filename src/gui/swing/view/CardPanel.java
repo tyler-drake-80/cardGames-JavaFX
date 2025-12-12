@@ -1,7 +1,8 @@
-package gui.view;
+package gui.swing.view;
 
 import cards.Card;
-import gui.integration.CardImageLoader;
+import gui.swing.integration.CardImageLoader;
+
 import java.awt.BorderLayout;
 import javax.swing.*;
 /**

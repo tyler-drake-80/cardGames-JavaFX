@@ -1,10 +1,11 @@
-package gui.app;
+package gui.swing.app;
 
 import cards.*;
 import game.GameEngine;
 import game.Table;
-import gui.integration.*;
-import gui.view.*;
+import gui.swing.integration.*;
+import gui.swing.view.*;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;

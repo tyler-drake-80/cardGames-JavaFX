@@ -1,4 +1,4 @@
-package gui.view;
+package gui.swing.view;
 
 import cards.Card;
 import game.HAND_WEIGHT;

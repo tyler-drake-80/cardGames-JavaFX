@@ -1,7 +1,7 @@
-package gui.view;
+package gui.swing.view;
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
 /**
  * Dialog for setting up game parameters before starting.

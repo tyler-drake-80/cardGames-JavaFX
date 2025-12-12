@@ -1,10 +1,10 @@
-package gui.integration;
+package gui.swing.integration;
 
 import cards.Card;
 import game.CheckHand;
 import game.GameEngine;
 import game.HAND_WEIGHT;
-import gui.view.*;
+import gui.swing.view.*;
 import players.Player;
 
 import java.util.List;
@@ -63,7 +63,7 @@ public class GUIListener implements GameListener {
         // Convert GameState to TableState for the TablePanel
         TablePanel.TableState ts = new TablePanel.TableState();
 
-        for (gui.integration.PlayerState ps : gs.players) {
+        for (gui.swing.integration.PlayerState ps : gs.players) {
             TablePanel.PlayerState pstate = new TablePanel.PlayerState(ps.seat);
             pstate.name = ps.name;
             pstate.chips = ps.chips;
