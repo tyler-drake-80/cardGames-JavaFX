@@ -1,7 +1,8 @@
-package gui.view;
+package gui.swing.view;
 
 import cards.Card;
-import gui.integration.PlayerState;
+import gui.swing.integration.PlayerState;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;

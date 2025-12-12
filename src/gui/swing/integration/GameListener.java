@@ -1,6 +1,6 @@
-package gui.integration;
+package gui.swing.integration;
 
-import gui.view.*;
+import gui.swing.view.*;
 import players.Player;
 
 /**

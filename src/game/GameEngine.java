@@ -2,9 +2,9 @@ package game;
 
 import cards.Card;
 import cards.Deck;
-import gui.integration.GameListener;
-import gui.integration.GameState;
-import gui.integration.PlayerState;
+import gui.swing.integration.GameListener;
+import gui.swing.integration.GameState;
+import gui.swing.integration.PlayerState;
 import java.util.*;
 import players.POSITIONS;
 import players.Player;
@@ -254,7 +254,7 @@ public class GameEngine{
         for (int i = 0; i < players.size(); i++) {
             Player p = players.get(i);
 
-            gui.integration.PlayerState ps = new gui.integration.PlayerState(i);
+            gui.swing.integration.PlayerState ps = new gui.swing.integration.PlayerState(i);
             ps.seat = i;
             ps.name = p.getName();
             ps.chips = p.getChips();
